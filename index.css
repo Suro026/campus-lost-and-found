@@ -1,0 +1,175 @@
+/* General Page Setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8fafc;
+  color: #0d131b;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e7ecf3;
+}
+
+header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+header a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #0d131b;
+  font-weight: 500;
+}
+
+/* Logo Area */
+header .logo-area {
+  display: flex;
+  align-items: center;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #e7ecf3;
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-right: 20px;
+}
+
+.search-bar input {
+  border: none;
+  background: none;
+  padding: 6px;
+  outline: none;
+  width: 200px;
+}
+
+/* Button */
+button {
+  background-color: #136deb;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+button.secondary {
+  background-color: #e7ecf3;
+  color: #0d131b;
+}
+button:hover{
+    text-shadow: 4px 2px 3px black;
+    background-color: #6ba2ea;
+    color: white;
+}
+/* Hero Banner */
+.hero {
+  background-image: url('building.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
+  padding: 36px;
+  padding-top: 319px !important;
+  color: rgb(214 10 10);
+  font-size: 37px;
+  font-weight: bold;
+  text-shadow: 4px 2px 3px black;
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+  align-items: center;
+  background-color: #e7ecf3;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin-left: 25px;
+  margin-top: 8px;
+  width: 95%;
+}
+
+/* Section Heading */
+h2.section-heading {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 40px 0;
+}
+
+/* Item Grid */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+/* Individual Item */
+.item-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+#item-image1{
+    background-image: url(laptop.png);
+}
+#item-image2{
+    background-image: url(wallet.png);
+}
+#item-image3{
+    background-image: url(key.png);
+}
+#item-image4{
+    background-image: url(bag.png);
+}
+#item-image5{
+    background-image: url(phone.png);
+}
+#item-image6{
+    background-image: url(glasses.png);
+}
+.item-card .item-image {
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-card .item-info {
+  padding: 10px;
+}
+
+.item-info p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Bottom Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px 0;
+}
+
+.navi:hover{
+  text-shadow: 4px 2px 3px rgb(144, 134, 134) ;
+  color: rgb(0, 0, 0) ;
+}
